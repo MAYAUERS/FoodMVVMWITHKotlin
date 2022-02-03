@@ -38,9 +38,5 @@ class UserAdapter(var user:ArrayList<DataUser>):RecyclerView.Adapter<UserAdapter
         return user.size
     }
 
-    fun getUserList(users: Users){
-        users.meta
-        users.data
-        notifyDataSetChanged()
-    }
+
 }
