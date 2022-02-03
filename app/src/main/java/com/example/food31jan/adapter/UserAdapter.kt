@@ -10,7 +10,7 @@ import com.example.food31jan.model.DataUser
 import com.example.food31jan.model.Users
 
 class UserAdapter(var user:ArrayList<DataUser>):RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
-   // var user =ArrayList<DataUser>()
+
 
     class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
